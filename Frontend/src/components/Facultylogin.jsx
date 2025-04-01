@@ -53,7 +53,7 @@ const FacultyLogin = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/faculty/login",
+        "https://alma-vu.onrender.com/api/faculty/login",
         { email, password }
       );
       console.log("Response Data:", response.data);
