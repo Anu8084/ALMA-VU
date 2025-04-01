@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
-const FacultyLogin = () => {
+const FacultyLoginComp = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
@@ -133,4 +133,4 @@ const FacultyLogin = () => {
   );
 };
 
-export default FacultyLogin;
+export default FacultyLoginComp;

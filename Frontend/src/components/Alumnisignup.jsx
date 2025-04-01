@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const AlumniSignUp = () => {
+export default function AlumniSignupComp(){
     const [regNo, setRegNo] = useState("");
     const [batch, setBatch] = useState("");
     const [branch, setBranch] = useState("");
@@ -84,5 +84,3 @@ const AlumniSignUp = () => {
         </div>
     );
 };
-
-export default AlumniSignUp;

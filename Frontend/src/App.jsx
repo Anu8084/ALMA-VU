@@ -66,9 +66,8 @@ import Alumni from "./components/Alumni";
 
 import Login from "./components/Login";
 import AlumniLogin from "./components/AlumniLogin";
-import Alumnisignup from "./components/Alumnisignup";
 import AlumniDetails from "./components/AlumniDetails";
-import Facultylogin from "./components/Facultylogin";
+import FacultyLoginComp from "./components/Facultylogin";
 import FacultyDashboard from "./components/FacultyDashboard";  // Fixed path
 import ViewAlumni from "./components/ViewAlumni";
 import Post from "./components/Post";  // Ensure this component exists
@@ -79,6 +78,7 @@ import AlumniFilter from "./components/AlumniFilter";
 import AlumniFilterResults from "./components/AlumniFilterResults";
 import EmailAlumniFilter from "./components/EmailAlumniFilter";
 import EmailFilterResults from "./components/EmailFilterResults";
+import AlumniSignupComp from "./components/Alumnisignup"
 
 
 import "./App.css";
@@ -95,9 +95,9 @@ function App() {
        
         <Route path="/login" element={<Login />} />
         <Route path="/AlumniLogin" element={<AlumniLogin />} />
-        <Route path="/Alumnisignup" element={<AlumniSignup />} />
+        <Route path="/Alumnisignup" element={<AlumniSignupComp />} />
         <Route path="/AlumniDetails" element={<AlumniDetails />} />
-        <Route path="/facultylogin" element={<FacultyLogin />} />
+        <Route path="/facultylogin" element={<FacultyLoginComp />} />
         <Route path="/faculty-dashboard" element={<FacultyDashboard />} />
         <Route path="/viewalumni" element={<ViewAlumni />} />
         <Route path="/alumni" element={<Alumni />} />
