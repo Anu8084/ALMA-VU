@@ -8,7 +8,7 @@ const ApprovedPosts = () => {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/posts/approved");
+        const res = await axios.get("https://alma-vu.onrender.com/api/posts/approved");
         setPosts(res.data);
       } catch (error) {
         console.error("Error fetching approved posts:", error);
