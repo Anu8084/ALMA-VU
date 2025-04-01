@@ -11,7 +11,7 @@ const AlumniSignUp = () => {
 
     const handleSignUp = async () => {
         try {
-            const response = await fetch("http://localhost:5000/api/alumni/signup", {
+            const response = await fetch("https://alma-vu.onrender.com/api/alumni/signup", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ regNo, batch, branch, email, password, dob }),  // Include email
