@@ -9,7 +9,7 @@ const FilterResults = () => {
   useEffect(() => {
     const fetchFilteredData = async () => {
       try {
-        const response = await axios.get(`http://localhost:5000/api/faculty/filter${location.search}`);
+        const response = await axios.get(`https://alma-vu.onrender.com/api/faculty/filter${location.search}`);
         setResults(response.data);
       } catch (error) {
         console.error("Error fetching data", error);
