@@ -51,7 +51,7 @@ const EmailAlumniFilter = () => {
         }
       });
 
-      const response = await axios.get(`http://localhost:5000/api/faculty/filter?${queryParams}`);
+      const response = await axios.get(`https://alma-vu.onrender.com/api/faculty/filter?${queryParams}`);
       
       // Navigate to EmailFilterResults page with results as state
       navigate("/email-filter-results", { state: { results: response.data } });
