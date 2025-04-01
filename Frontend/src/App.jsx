@@ -66,7 +66,7 @@ import Alumni from "./components/Alumni";
 
 import Login from "./components/Login";
 import AlumniLogin from "./components/AlumniLogin";
-import AlumniSignup from "./components/AlumniSignup";
+import Alumnisignup from "./components/Alumnisignup";
 import AlumniDetails from "./components/AlumniDetails";
 import FacultyLogin from "./components/FacultyLogin";
 import FacultyDashboard from "./components/FacultyDashboard";  // Fixed path
