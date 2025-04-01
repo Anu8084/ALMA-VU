@@ -11,13 +11,13 @@ const Gallery = () => {
 
       {/* Gallery Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-6xl">
-        {/* Example Images (Replace with real images) */}
-        <div className="bg-gray-300 w-full h-60 rounded-lg"></div>
-        <div className="bg-gray-300 w-full h-60 rounded-lg"></div>
-        <div className="bg-gray-300 w-full h-60 rounded-lg"></div>
-        <div className="bg-gray-300 w-full h-60 rounded-lg"></div>
-        <div className="bg-gray-300 w-full h-60 rounded-lg"></div>
-        <div className="bg-gray-300 w-full h-60 rounded-lg"></div>
+        {/* Replace src with actual image links */}
+        <img src="/images/download.jpeg" alt="Gallery Image 1" className="w-full h-60 object-cover rounded-lg" />
+        <img src="/images/download.jpeg" alt="Gallery Image 2" className="w-full h-60 object-cover rounded-lg" />
+        <img src="/images/images.jpeg" alt="Gallery Image 3" className="w-full h-60 object-cover rounded-lg" />
+        <img src="/images/download.jpeg" alt="Gallery Image 4" className="w-full h-60 object-cover rounded-lg" />
+        <img src="/images/download(1).jpeg" alt="Gallery Image 5" className="w-full h-60 object-cover rounded-lg" />
+        <img src="/images/download.jpeg" alt="Gallery Image 6" className="w-full h-60 object-cover rounded-lg" />
       </div>
     </section>
   );
