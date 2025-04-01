@@ -224,7 +224,7 @@ const AlumniFilter = () => {
 
       queryParams.append("sortOrder", sortOrder);
 
-      const response = await axios.get(`http://localhost:5000/api/faculty/filter?${queryParams}`);
+      const response = await axios.get(`https://alma-vu.onrender.com/api/faculty/filter?${queryParams}`);
       setResults(response.data);
       setSelectedCandidates([]);
       setSelectAll(false);
