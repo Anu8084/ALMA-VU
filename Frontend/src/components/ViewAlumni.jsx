@@ -6,7 +6,7 @@ const ViewAlumni = () => {
 
     useEffect(() => {
         const aluminidata = () => {
-            fetch("http://localhost:5000/api/alumni/view-alumni")
+            fetch("https://alma-vu.onrender.com/api/alumni/view-alumni")
                 .then(response => {
                     if (!response.ok) {
                         throw new Error("Failed to fetch data");

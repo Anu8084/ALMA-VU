@@ -122,7 +122,7 @@ const CreatePost = () => {
     };
     
     try {
-      await axios.post("http://localhost:5000/api/posts/create", postData);
+      await axios.post("https://alma-vu.onrender.com/api/posts/create", postData);
       alert("Post submitted for approval!");
       setTitle("");
       setDescription("");

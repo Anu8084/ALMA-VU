@@ -66,15 +66,15 @@ import Alumni from "./components/Alumni";
 
 import Login from "./components/Login";
 import AlumniLogin from "./components/AlumniLogin";
-import AlumniSignup from "./components/Alumnisignup";
-import AlumniDetails from "./components/Alumnidetails";
-import FacultyLogin from "./components/Facultylogin";
+import Alumnisignup from "./components/Alumnisignup";
+import AlumniDetails from "./components/AlumniDetails";
+import Facultylogin from "./components/Facultylogin";
 import FacultyDashboard from "./components/FacultyDashboard";  // Fixed path
 import ViewAlumni from "./components/ViewAlumni";
 import Post from "./components/Post";  // Ensure this component exists
-import CreatePost from "./components/createpost";
+import CreatePost from "./components/CreatePost";
 import FacultyApproval from "./components/FacultyApproval";
-import Filter from "./components/filter";
+import Filter from "./components/Filter";
 import AlumniFilter from "./components/AlumniFilter";
 import AlumniFilterResults from "./components/AlumniFilterResults";
 import EmailAlumniFilter from "./components/EmailAlumniFilter";

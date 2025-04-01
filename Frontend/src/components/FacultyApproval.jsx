@@ -207,7 +207,7 @@ const FacultyApproval = () => {
   // Fetch Pending Posts
   const fetchPendingPosts = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/api/posts/pending");
+      const response = await axios.get("https://alma-vu.onrender.com/api/posts/pending");
       setPosts(response.data);
     } catch (error) {
       console.error("Error fetching posts:", error);
@@ -227,7 +227,7 @@ const FacultyApproval = () => {
   // Approve/Reject Post
   const handleApproval = async (postId, status, postTitle) => {
     try {
-      const response = await axios.post(`http://localhost:5000/api/posts/${status}/${postId}`);
+      const response = await axios.post(`https://alma-vu.onrender.com/api/posts/${status}/${postId}`);
 
       if (response.status === 200) {
         setMessage(`✅ Post "${postTitle}" successfully ${status}d!`);
